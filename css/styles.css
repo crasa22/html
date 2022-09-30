@@ -1,0 +1,34 @@
+[href]{
+    background-color: rgb(85, 243, 243); /*Este selector alcanza a todos los enlaces*/
+    font-size: 25px;
+}
+
+[href="https://google.com"]{
+    background-color: rgb(54, 64, 243); /*Este selector alcaza solo al primero*/
+}
+
+[href="el_cielo"]{
+    background-color: rgb(194, 94, 245);  /*Este selector nos permito selecionar la primera letras*/
+}
+
+[href*="color"]{
+    background-color: rgb(124, 243, 60);  /*Este selector nos permite cojer una sola palabra*/
+}
+
+[href^="c"]{
+    background-color: rgb(237, 36, 53);  /*Este selector podemos selecionar una letra*/
+}
+
+h1{
+    background-color: rgb(78, 169, 248);
+    font-size: 40px;
+}
+p{
+    background-color: rgb(153, 201, 243);
+    font-size: 20px;
+}
+
+h2{
+    background-color: rgb(92, 175, 248);
+    font-size: 30px;
+}
